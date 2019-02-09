@@ -34,19 +34,18 @@ Cells are divided into groups based on the quantile threshold of the ranks distr
 
 As a result files are saved in the path/target directory:
 
-  aggregated scores :
+aggregated scores :
   
-        - folder with the heatmap of scores with t-test stars
-        
-        - scores matrix used map for staining
-        
-  heatmap_extreme_cells :
+- folder with the heatmap of scores with t-test stars
+- scores matrix used map for staining
+
+heatmap_extreme_cells :
   
-         heatmaps of only selected cell in groups with threshold applied on genes
+- heatmaps of only selected cell in groups with threshold applied on genes
          
-  heatmap_most_var_genes :
+heatmap_most_var_genes :
   
-        heatmap of all cells with threshold applied on genes
+- heatmap of all cells with threshold applied on genes
         
 and files :
 
@@ -58,9 +57,14 @@ and files :
 
 # examples of use
 
+## in R
+
 see/execute
 
 **running_scores_function.R**
+
+## command line
+
 
 Can be run directly from command line with input of .txt and .gmt files
 
