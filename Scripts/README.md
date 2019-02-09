@@ -33,16 +33,27 @@ Cells are divided into groups based on the quantile threshold of the ranks distr
 ### Saved in the filesystem 
 
 As a result files are saved in the path/target directory:
+
   aggregated scores :
+  
         - folder with the heatmap of scores with t-test stars
+        
         - scores matrix used map for staining
+        
   heatmap_extreme_cells :
+  
          heatmaps of only selected cell in groups with threshold applied on genes
+         
   heatmap_most_var_genes :
+  
         heatmap of all cells with threshold applied on genes
+        
 and files :
+
    - _modules_size.txt - number of genes present in the data and in the module
+   
    - _t_test.txt - t-test results
+   
    - most_neg_pos_genes.txt - for each module three genes with highest (up) and three genes lowest expression (down) are listed
 
 # examples of use
